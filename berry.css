@@ -1,0 +1,136 @@
+header{
+	background-color: #f9ffff;
+	background-size: 100%;
+	padding:40px;
+	height : 15%;
+	width : 100%;
+}
+h1{
+	color: #ffffff;
+	font-size: 50px;
+	font-family: "Times New Roman", Times, serif;
+}
+nav a{
+	background: black;
+	font-family: Helvetica, Courier, monospace;
+	-moz-border-radius: 5px;
+  	-ms-border-radius: 5px;
+  	-o-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+	text-decoration: none;
+}
+nav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #111;
+}
+h2{
+	font-family: Arial, Helvetica, sans-serif, monospace;
+	font-size: 30px;
+}
+@media only screen and (min-width: 350px){
+#Home{
+	background: yellow;
+	font-family: Arial, Helvetica, sans-serif, monospace;
+	overflow: auto;
+}
+header h1{
+	color: #ffffff;
+	font-size: 50px;
+	font-family: "Times New Roman", Times, serif;
+}
+#SaltAndSourGooseberry{
+	background: black;
+	font-family: Arial, Helvetica, sans-serif, monospace;
+	width : 100%;
+}
+#SaltAndSourGooseberry h2{
+	color:white;
+}
+#SaltAndSourGooseberry p{
+	color:yellow;
+}
+#SaltAndSourGooseberry img{
+	float:right;
+	border:2px;
+	border-radius: 5px;
+	margin:1px;
+}
+.address p{
+	float:right;
+	text-align:right;
+}
+.map{
+	 width: 400px;
+	 height: 350px;
+}
+form legend{
+	color:black;
+	font-family:  monospace, sans-serif, monospace;
+}
+#MakeAnOrder {
+	background: #799769;
+}
+#ContactUs{
+	background: #799399;
+}
+#ContactUs h3{
+	font-family:  monospace, sans-serif, monospace;
+}
+#myCarousel{
+	margin:0px;
+	padding:20px 0px 0px 0px;
+	
+}
+}
+@media only screen and (min-width: 1024px){
+.carousel-inner{
+	border: 2px solid black;
+  border-radius: 15px;
+}
+ #ContactUs form {
+	text-align:left;
+	color:black;
+	font-family:  monospace, sans-serif, monospace;
+	margin: 0px 0px 0px 700px;
+}
+#ContactUs h3{
+	font-family:  monospace, sans-serif, monospace;
+	text-align:left;
+	margin:0px 0px 0px 700px;
+}
+#ContactUs{
+	background: #799399;
+}
+.item img{
+		background-color: white;
+		width: 25%;
+		padding: 0 2%;
+		border: 1px solid black;
+	}
+#SaltAndSourGooseberry img{
+	width:200px;
+	height:125px;
+	float:right;
+	border:2px;
+	border-radius: 5px;
+	margin:1px;
+}
+#ContactUs p{
+	color:black;
+}
+.address{
+	text-align:left;
+	margin: 0px 0px 0px 700px;
+}
+.map{
+float:left;
+width: 600px;
+height:230px;
+}
+}
