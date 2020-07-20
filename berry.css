@@ -1,12 +1,13 @@
 header{
-	background-color: #f9ffff;
+	background-color: black;
+	background-image: url('IMG_20200718_010625.JPG);
 	background-size: 100%;
 	padding:40px;
 	height : 15%;
 	width : 100%;
 }
 h1{
-	color: #ffffff;
+	color: yellow;
 	font-size: 50px;
 	font-family: "Times New Roman", Times, serif;
 }
